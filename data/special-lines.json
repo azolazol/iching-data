@@ -1,0 +1,20 @@
+[
+  {
+    "hexagram_number": 1,
+    "label_zh": "用九",
+    "label_ko": "용구",
+    "text_zh": "見群龍無首吉",
+    "language": "zh-Hant",
+    "source_id": "classical-yong9",
+    "note": "고전 글자열. 현대 번역·주석·구두점을 복제하지 않음."
+  },
+  {
+    "hexagram_number": 2,
+    "label_zh": "用六",
+    "label_ko": "용육",
+    "text_zh": "利永貞",
+    "language": "zh-Hant",
+    "source_id": "classical-yong6",
+    "note": "고전 글자열. 현대 번역·주석·구두점을 복제하지 않음."
+  }
+]

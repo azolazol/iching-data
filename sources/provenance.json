@@ -1,0 +1,87 @@
+{
+  "dataset_version": "0.1.0",
+  "retrieved_on": "2026-11-15",
+  "upstream_repository": "https://github.com/crane1102/iching-llm",
+  "upstream_commit": "7bb5d7b1fc3a5f0f331b38673ed3b9d2ce882443",
+  "files": [
+    {
+      "id": "backend/iching_texts.py",
+      "url": "https://raw.githubusercontent.com/crane1102/iching-llm/7bb5d7b1fc3a5f0f331b38673ed3b9d2ce882443/backend/iching_texts.py",
+      "path": "sources/upstream/iching_texts.py.txt",
+      "sha256": "1a42b41c86f6b28732ca8857c8a5001f6ee35ec03621a282e0629d1fe091c5e6",
+      "license": "MIT"
+    },
+    {
+      "id": "backend/iching_coin.py",
+      "url": "https://raw.githubusercontent.com/crane1102/iching-llm/7bb5d7b1fc3a5f0f331b38673ed3b9d2ce882443/backend/iching_coin.py",
+      "path": "sources/upstream/iching_coin.py.txt",
+      "sha256": "9748eb39554c20bc95c773690f9fba4606f32de3384002c170787ca76e8a332b",
+      "license": "MIT"
+    },
+    {
+      "id": "LICENSE",
+      "url": "https://raw.githubusercontent.com/crane1102/iching-llm/7bb5d7b1fc3a5f0f331b38673ed3b9d2ce882443/LICENSE",
+      "path": "licenses/crane1102-MIT.txt",
+      "sha256": "cee10b3e11f3ecc5dd9a8489613fc1d0dba620a1786f6dd194ec72ce2ac4aa36",
+      "license": "MIT"
+    }
+  ],
+  "sources": [
+    {
+      "id": "crane1102-zhouyi",
+      "kind": "extraction",
+      "url": "https://github.com/crane1102/iching-llm/blob/7bb5d7b1fc3a5f0f331b38673ed3b9d2ce882443/backend/iching_texts.py",
+      "license": "MIT",
+      "scope": "64괘 간체자 괘사·6효사·대상전; 이 전자자료의 문구·구두점 보존. 특정 고판본의 외교적 전사본은 아님."
+    },
+    {
+      "id": "crane1102-map",
+      "kind": "extraction",
+      "url": "https://github.com/crane1102/iching-llm/blob/7bb5d7b1fc3a5f0f331b38673ed3b9d2ce882443/backend/iching_coin.py",
+      "license": "MIT",
+      "scope": "GUAMAP와 TRIGRAM 상수만 추출. 점술 코드나 해석 생성 기능은 사용하지 않음."
+    },
+    {
+      "id": "classical-yong9",
+      "kind": "classical-text",
+      "url": "https://zh.wikisource.org/wiki/周易/乾",
+      "license": "Public-domain classical text",
+      "scope": "용구의 무구두점 고전 글자열; 사이트의 현대 설명·번역·편집물을 수록하지 않음."
+    },
+    {
+      "id": "classical-yong6",
+      "kind": "classical-text",
+      "url": "https://zh.wikisource.org/wiki/周易/坤",
+      "license": "Public-domain classical text",
+      "scope": "용육의 무구두점 고전 글자열; 사이트의 현대 설명·번역·편집물을 수록하지 않음."
+    },
+    {
+      "id": "unicode",
+      "kind": "reference",
+      "url": "https://www.unicode.org/charts/nameslist/n_4DC0.html",
+      "scope": "U+4DC0–U+4DFF 기호 순서 확인; 차트 자체는 복제하지 않음."
+    },
+    {
+      "id": "local-metadata",
+      "kind": "editorial",
+      "license": "MIT",
+      "scope": "한국어 괘명·한자 표시명·명칭 별칭·팔괘 이름. 한국어 괘사/효사 번역은 미수록."
+    }
+  ],
+  "quality": {
+    "structural_validation": "64괘·384효·8팔괘·64개 고유 비트 패턴 및 출력 간 일치 검증",
+    "textual_collation": "미완료. 전 괘를 고판본과 대조한 학술 교감본이 아님.",
+    "spot_check_pages": [
+      "https://zh.wikisource.org/wiki/周易/乾",
+      "https://zh.wikisource.org/wiki/周易/坤",
+      "https://zh.wikisource.org/wiki/周易/既濟",
+      "https://zh.wikisource.org/wiki/周易/未濟"
+    ],
+    "known_scope_limits": [
+      "한문 본문은 주로 간체자이며 한국 한자 표시는 명칭 메타데이터에만 별도 제공",
+      "단전·소상전·문언전·계사전·설괘전·서괘전·잡괘전 전체 미수록",
+      "한국어 번역/현대 운세 풀이 미수록",
+      "제3괘 둔/준, 제33괘 둔/돈 등 독음 차이는 별칭으로 보존"
+    ]
+  }
+}

@@ -1,0 +1,395 @@
+[
+  {
+    "number": 1,
+    "name_ko": "건",
+    "name_hanja": "乾",
+    "aliases_ko": []
+  },
+  {
+    "number": 2,
+    "name_ko": "곤",
+    "name_hanja": "坤",
+    "aliases_ko": []
+  },
+  {
+    "number": 3,
+    "name_ko": "둔",
+    "name_hanja": "屯",
+    "aliases_ko": [
+      "준",
+      "수뢰준"
+    ]
+  },
+  {
+    "number": 4,
+    "name_ko": "몽",
+    "name_hanja": "蒙",
+    "aliases_ko": []
+  },
+  {
+    "number": 5,
+    "name_ko": "수",
+    "name_hanja": "需",
+    "aliases_ko": []
+  },
+  {
+    "number": 6,
+    "name_ko": "송",
+    "name_hanja": "訟",
+    "aliases_ko": []
+  },
+  {
+    "number": 7,
+    "name_ko": "사",
+    "name_hanja": "師",
+    "aliases_ko": []
+  },
+  {
+    "number": 8,
+    "name_ko": "비",
+    "name_hanja": "比",
+    "aliases_ko": []
+  },
+  {
+    "number": 9,
+    "name_ko": "소축",
+    "name_hanja": "小畜",
+    "aliases_ko": []
+  },
+  {
+    "number": 10,
+    "name_ko": "리",
+    "name_hanja": "履",
+    "aliases_ko": []
+  },
+  {
+    "number": 11,
+    "name_ko": "태",
+    "name_hanja": "泰",
+    "aliases_ko": []
+  },
+  {
+    "number": 12,
+    "name_ko": "비",
+    "name_hanja": "否",
+    "aliases_ko": []
+  },
+  {
+    "number": 13,
+    "name_ko": "동인",
+    "name_hanja": "同人",
+    "aliases_ko": []
+  },
+  {
+    "number": 14,
+    "name_ko": "대유",
+    "name_hanja": "大有",
+    "aliases_ko": []
+  },
+  {
+    "number": 15,
+    "name_ko": "겸",
+    "name_hanja": "謙",
+    "aliases_ko": []
+  },
+  {
+    "number": 16,
+    "name_ko": "예",
+    "name_hanja": "豫",
+    "aliases_ko": []
+  },
+  {
+    "number": 17,
+    "name_ko": "수",
+    "name_hanja": "隨",
+    "aliases_ko": []
+  },
+  {
+    "number": 18,
+    "name_ko": "고",
+    "name_hanja": "蠱",
+    "aliases_ko": []
+  },
+  {
+    "number": 19,
+    "name_ko": "림",
+    "name_hanja": "臨",
+    "aliases_ko": []
+  },
+  {
+    "number": 20,
+    "name_ko": "관",
+    "name_hanja": "觀",
+    "aliases_ko": []
+  },
+  {
+    "number": 21,
+    "name_ko": "서합",
+    "name_hanja": "噬嗑",
+    "aliases_ko": []
+  },
+  {
+    "number": 22,
+    "name_ko": "비",
+    "name_hanja": "賁",
+    "aliases_ko": []
+  },
+  {
+    "number": 23,
+    "name_ko": "박",
+    "name_hanja": "剝",
+    "aliases_ko": []
+  },
+  {
+    "number": 24,
+    "name_ko": "복",
+    "name_hanja": "復",
+    "aliases_ko": []
+  },
+  {
+    "number": 25,
+    "name_ko": "무망",
+    "name_hanja": "無妄",
+    "aliases_ko": []
+  },
+  {
+    "number": 26,
+    "name_ko": "대축",
+    "name_hanja": "大畜",
+    "aliases_ko": []
+  },
+  {
+    "number": 27,
+    "name_ko": "이",
+    "name_hanja": "頤",
+    "aliases_ko": []
+  },
+  {
+    "number": 28,
+    "name_ko": "대과",
+    "name_hanja": "大過",
+    "aliases_ko": []
+  },
+  {
+    "number": 29,
+    "name_ko": "감",
+    "name_hanja": "坎",
+    "aliases_ko": []
+  },
+  {
+    "number": 30,
+    "name_ko": "리",
+    "name_hanja": "離",
+    "aliases_ko": [
+      "이",
+      "중화이"
+    ]
+  },
+  {
+    "number": 31,
+    "name_ko": "함",
+    "name_hanja": "咸",
+    "aliases_ko": []
+  },
+  {
+    "number": 32,
+    "name_ko": "항",
+    "name_hanja": "恒",
+    "aliases_ko": []
+  },
+  {
+    "number": 33,
+    "name_ko": "둔",
+    "name_hanja": "遯",
+    "aliases_ko": [
+      "돈",
+      "천산돈"
+    ]
+  },
+  {
+    "number": 34,
+    "name_ko": "대장",
+    "name_hanja": "大壯",
+    "aliases_ko": []
+  },
+  {
+    "number": 35,
+    "name_ko": "진",
+    "name_hanja": "晉",
+    "aliases_ko": []
+  },
+  {
+    "number": 36,
+    "name_ko": "명이",
+    "name_hanja": "明夷",
+    "aliases_ko": []
+  },
+  {
+    "number": 37,
+    "name_ko": "가인",
+    "name_hanja": "家人",
+    "aliases_ko": []
+  },
+  {
+    "number": 38,
+    "name_ko": "규",
+    "name_hanja": "睽",
+    "aliases_ko": []
+  },
+  {
+    "number": 39,
+    "name_ko": "건",
+    "name_hanja": "蹇",
+    "aliases_ko": []
+  },
+  {
+    "number": 40,
+    "name_ko": "해",
+    "name_hanja": "解",
+    "aliases_ko": []
+  },
+  {
+    "number": 41,
+    "name_ko": "손",
+    "name_hanja": "損",
+    "aliases_ko": []
+  },
+  {
+    "number": 42,
+    "name_ko": "익",
+    "name_hanja": "益",
+    "aliases_ko": []
+  },
+  {
+    "number": 43,
+    "name_ko": "쾌",
+    "name_hanja": "夬",
+    "aliases_ko": []
+  },
+  {
+    "number": 44,
+    "name_ko": "구",
+    "name_hanja": "姤",
+    "aliases_ko": []
+  },
+  {
+    "number": 45,
+    "name_ko": "췌",
+    "name_hanja": "萃",
+    "aliases_ko": []
+  },
+  {
+    "number": 46,
+    "name_ko": "승",
+    "name_hanja": "升",
+    "aliases_ko": []
+  },
+  {
+    "number": 47,
+    "name_ko": "곤",
+    "name_hanja": "困",
+    "aliases_ko": []
+  },
+  {
+    "number": 48,
+    "name_ko": "정",
+    "name_hanja": "井",
+    "aliases_ko": []
+  },
+  {
+    "number": 49,
+    "name_ko": "혁",
+    "name_hanja": "革",
+    "aliases_ko": []
+  },
+  {
+    "number": 50,
+    "name_ko": "정",
+    "name_hanja": "鼎",
+    "aliases_ko": []
+  },
+  {
+    "number": 51,
+    "name_ko": "진",
+    "name_hanja": "震",
+    "aliases_ko": []
+  },
+  {
+    "number": 52,
+    "name_ko": "간",
+    "name_hanja": "艮",
+    "aliases_ko": []
+  },
+  {
+    "number": 53,
+    "name_ko": "점",
+    "name_hanja": "漸",
+    "aliases_ko": []
+  },
+  {
+    "number": 54,
+    "name_ko": "귀매",
+    "name_hanja": "歸妹",
+    "aliases_ko": []
+  },
+  {
+    "number": 55,
+    "name_ko": "풍",
+    "name_hanja": "豐",
+    "aliases_ko": []
+  },
+  {
+    "number": 56,
+    "name_ko": "려",
+    "name_hanja": "旅",
+    "aliases_ko": []
+  },
+  {
+    "number": 57,
+    "name_ko": "손",
+    "name_hanja": "巽",
+    "aliases_ko": []
+  },
+  {
+    "number": 58,
+    "name_ko": "태",
+    "name_hanja": "兌",
+    "aliases_ko": []
+  },
+  {
+    "number": 59,
+    "name_ko": "환",
+    "name_hanja": "渙",
+    "aliases_ko": []
+  },
+  {
+    "number": 60,
+    "name_ko": "절",
+    "name_hanja": "節",
+    "aliases_ko": []
+  },
+  {
+    "number": 61,
+    "name_ko": "중부",
+    "name_hanja": "中孚",
+    "aliases_ko": []
+  },
+  {
+    "number": 62,
+    "name_ko": "소과",
+    "name_hanja": "小過",
+    "aliases_ko": []
+  },
+  {
+    "number": 63,
+    "name_ko": "기제",
+    "name_hanja": "既濟",
+    "aliases_ko": []
+  },
+  {
+    "number": 64,
+    "name_ko": "미제",
+    "name_hanja": "未濟",
+    "aliases_ko": []
+  }
+]

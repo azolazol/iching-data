@@ -1,0 +1,106 @@
+[
+  {
+    "id": "qian",
+    "name_hanja": "乾",
+    "name_ko": "건",
+    "nature_ko": "하늘",
+    "nature_reading_ko": "천",
+    "lines_bottom_to_top": [
+      1,
+      1,
+      1
+    ],
+    "symbol": "☰"
+  },
+  {
+    "id": "dui",
+    "name_hanja": "兌",
+    "name_ko": "태",
+    "nature_ko": "못",
+    "nature_reading_ko": "택",
+    "lines_bottom_to_top": [
+      1,
+      1,
+      0
+    ],
+    "symbol": "☱"
+  },
+  {
+    "id": "li",
+    "name_hanja": "離",
+    "name_ko": "리",
+    "nature_ko": "불",
+    "nature_reading_ko": "화",
+    "lines_bottom_to_top": [
+      1,
+      0,
+      1
+    ],
+    "symbol": "☲"
+  },
+  {
+    "id": "zhen",
+    "name_hanja": "震",
+    "name_ko": "진",
+    "nature_ko": "우레",
+    "nature_reading_ko": "뢰",
+    "lines_bottom_to_top": [
+      1,
+      0,
+      0
+    ],
+    "symbol": "☳"
+  },
+  {
+    "id": "xun",
+    "name_hanja": "巽",
+    "name_ko": "손",
+    "nature_ko": "바람",
+    "nature_reading_ko": "풍",
+    "lines_bottom_to_top": [
+      0,
+      1,
+      1
+    ],
+    "symbol": "☴"
+  },
+  {
+    "id": "kan",
+    "name_hanja": "坎",
+    "name_ko": "감",
+    "nature_ko": "물",
+    "nature_reading_ko": "수",
+    "lines_bottom_to_top": [
+      0,
+      1,
+      0
+    ],
+    "symbol": "☵"
+  },
+  {
+    "id": "gen",
+    "name_hanja": "艮",
+    "name_ko": "간",
+    "nature_ko": "산",
+    "nature_reading_ko": "산",
+    "lines_bottom_to_top": [
+      0,
+      0,
+      1
+    ],
+    "symbol": "☶"
+  },
+  {
+    "id": "kun",
+    "name_hanja": "坤",
+    "name_ko": "곤",
+    "nature_ko": "땅",
+    "nature_reading_ko": "지",
+    "lines_bottom_to_top": [
+      0,
+      0,
+      0
+    ],
+    "symbol": "☷"
+  }
+]
