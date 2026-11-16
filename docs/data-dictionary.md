@@ -35,13 +35,17 @@ JSON은 UTF-8, CSV는 Excel 호환을 위해 UTF-8 BOM과 표준 CSV 인용 규�
 | 필드 | 의미 |
 | --- | --- |
 | `translation_version` | 번역 내용의 버전. 기본 데이터 버전과 별개 |
+| `reading_system` | `korean_hanja`: 중국어 병음이 아닌 한국 한자음 |
+| `reading_reference_urls` | 한글 독음을 참고한 자료 URL |
 | `status`, `reviewed_by` | 현재 `draft`, `null`. 검토 전임을 명시 |
 | `source_dataset_commit` | 번역 기준으로 삼은 원문 저장소의 커밋 |
 | `reference_urls` | 참고한 고전 원문·주석 페이지 |
 | `editorial_policy` | 번역·해석·현대 적용의 작성 기준과 범위 |
-| `judgment`, `image` | 괘사 및 대상전의 `source_text_zh`, `translation_ko`, `interpretation_ko`, `notes_ko` |
+| `judgment`, `image` | 괘사 및 대상전의 `source_text_zh`, `reading_ko`, `translation_ko`, `interpretation_ko`, `notes_ko` |
 | `lines` | 초효→상효의 여섯 객체. 위 필드 외에 `position`, `label_zh`, `label_ko`, `modern_application_ko` |
 | `special_lines` | 용구·용육 등 특별문. 일반 여섯 효와 분리 |
 | `summary_ko`, `reading_notes_ko` | 한 줄 요약과 전체 읽기 메모 |
 
 `source_text_zh`는 기본 데이터와 글자·구두점까지 일치시켜 연결을 검사합니다. 다른 구두점이나 독법을 택할 때는 원문 필드를 고치지 않고 `notes_ko`에 설명합니다. 읽기용 Markdown은 `scripts/build_ko.py`로 생성하며 번역 원본은 JSON입니다.
+
+번역 레코드 구조 버전 1.1.0부터 괘사·6효사·대상전·특별문에 `reading_ko`를 제공합니다. 한자 한 글자에 대응하는 한국 한자음 한 음절을 기록하고, 토나 조사는 붙이지 않습니다. 띄어쓰기와 구두점은 읽기 편의를 위한 구절 구분입니다. 見龍在田의 첫 見은 '현', 利見大人의 見은 '견'처럼 문맥상 독음을 적용하며 발음대로의 연음·된소리 표기는 하지 않습니다.

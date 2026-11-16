@@ -5,7 +5,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 def section(title, unit):
-    rows = [f'## {title}', '', f'원문: {unit["source_text_zh"]}', '', f'**번역:** {unit["translation_ko"]}', '', f'**해석:** {unit["interpretation_ko"]}', '']
+    rows = [f'## {title}', '', f'원문: {unit["source_text_zh"]}', '', f'**한글 독음:** {unit["reading_ko"]}', '', f'**번역:** {unit["translation_ko"]}', '', f'**해석:** {unit["interpretation_ko"]}', '']
     if unit.get('modern_application_ko'):
         rows += [f'**현대 적용:** {unit["modern_application_ko"]}', '']
     if unit.get('notes_ko'):
@@ -34,6 +34,9 @@ def main():
                  f'한문 기준: 기본 데이터 커밋 `{t["source_dataset_commit"]}`. 원문의 간체자와 구두점을 기록하고 한국어 문장에서는 선택한 독법을 별도로 설명했습니다.', '',
                  '고전 원문과 문언전·상전의 설명을 참고해 한국어 문장을 새로 작성했습니다. 기존 현대 한국어 번역을 전재하지 않았습니다. 현대 적용은 이 프로젝트에서 덧붙인 예시입니다.', '']
         rows += [f'- [참고 원문 {i+1}]({url})' for i,url in enumerate(t['reference_urls'])]
+        if t.get('reading_reference_urls'):
+            rows += ['', '한글 독음 참고 자료:', '']
+            rows += [f'- [독음 참고 {i+1}]({url})' for i,url in enumerate(t['reading_reference_urls'])]
         rows += ['', f'[기계가 읽는 번역 JSON](../../translations/ko/{path.name})', '', '이 프로젝트의 번역·해석·문서는 MIT 조건으로 제공합니다.']
         (folder/(path.stem+'.md')).write_text('\n'.join(rows)+'\n', encoding='utf-8')
         count += 1

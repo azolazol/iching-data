@@ -35,12 +35,19 @@ def main():
             require(s['source_text_zh']==base['text_zh'] and s['source_id']==base['source_id'], '특별문 원문/출처 불일치')
         units=[t['judgment'],t['image'],*t['lines'],*t['special_lines']]
         require(all(u['translation_ko'].strip() and u['interpretation_ko'].strip() for u in units), '번역/해석 빈칸')
+        require(t['reading_system']=='korean_hanja', '한국 한자음 표기 방식 누락')
+        for unit in units:
+            reading=unit.get('reading_ko', '')
+            require(isinstance(reading,str) and reading.strip(), '한글 독음 누락')
+            hanzi_count=sum('\u4e00'<=c<='\u9fff' for c in unit['source_text_zh'])
+            syllable_count=sum('\uac00'<=c<='\ud7a3' for c in reading)
+            require(hanzi_count==syllable_count, '원문 한자 수와 독음 음절 수 불일치')
         require(t['reference_urls'] and len(t['source_dataset_commit'])==40, '출처 누락')
         require((ROOT/'docs/ko'/(path.stem+'.md')).is_file(), '읽기용 문서 누락')
     before={p.name:p.read_bytes() for p in (ROOT/'docs/ko').glob('*.md')}
     subprocess.run([sys.executable,str(ROOT/'scripts/build_ko.py')],check=True)
     require(before=={p.name:p.read_bytes() for p in (ROOT/'docs/ko').glob('*.md')}, '읽기용 문서와 번역 JSON 불일치')
-    print(f'PASS: {len(seen)}/64 Korean drafts; source texts / six lines / special text / draft status / document reproducibility')
+    print(f'PASS: {len(seen)}/64 Korean drafts; source texts / six lines / special text / Hangul reading coverage / draft status / document reproducibility')
 
 if __name__=='__main__':
     main()
